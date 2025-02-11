@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio
+  </title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="script" href="script.js">
+  <link rel="stylesheet" href="./assets/bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+
+  <!-- body mood -->
+  
+
+  <header>
+    <!-- header -->
+    <div class="fixed-top ">
+      <nav class="navbar navbar-expand-lg  fw-1 ">
+        <div class="container-fluid">
+          <h1>My Prof<span>ile</span></h1> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse  " style="margin-left: 47%;" id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link" href="#HOME"><b>HOME</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#SKILLS"><b>SKILLS</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ABOUT"><b>ABOUT</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#SEAL"><b>SEAL</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#CONTACT"><b>CONTACT</b></a>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- dark mood -->
+
+    <button class="id" onclick="change()">MOOD</button>
+   <style>
+    
+
+    .id {
+        font-size: 12px;
+        border-radius: 50px;
+        font-weight: bold;
+        padding: 10px 15px;
+        margin-top: 10px;
+        margin-left: 20px;
+        box-shadow: 0px 0px 5px red;
+        text-align: center;
+        animation: content 1s ease-in-out;
+        position: fixed;
+      }
+
+      .id:hover {
+        box-shadow: 0px 5px 10px rgb(148, 51, 51);
+      }
+
+      .dark-mode {
+      background-color: white;
+      color: black;
+    }
+
+    body {
+      background-color: black;
+      color: white;
+      overflow-x: hidden;
+    }
+
+
+   </style>
+    <script>
+      function change() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+
+
+    <!-- home section -->
+
+    <section class="home mt-5" id="HOME">
+      <div class="home p-5">
+        <div class="image">
+          <img src="./assets/image/enodathuuuu.png" class="rounded float-end rounded-circle " alt="image">
+        </div>
+        <div class="content " >
+          <p class="content">Hello , my name is</p>
+          <h2><span><b>G</b></span>.VISHOR</h2>
+          <h1>"MERN stack developer"</h1>
+          <p>I skilled in both front-end-development and back-end-development using React,Node.js,Express,MongoDB. </p>
+          
+
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="ABOUT " id="ABOUT">
+     <div class=" sectiona card-text">
+      <div class="common">
+        <p class="text-center fs-1 fw-bolder">About Me</p>
+      </div>
+
+      <div class="main">
+        <img src="./assets/image/enodathuuuu.png" class="rounded float-start rounded-4" alt="image">
+
+        <div class="about-text fs-4 ">
+          <b>
+            <h3 class="fw-bold fs-2"><b>My<span>self</span></b></h3>
+
+            <p >I am G.Vishor(front-end-developer).Currently, I doing bachelor of Engineering and department of
+              <span>computer science and engineering</span>.
+            </p>
+            <h3 class="fw-bold fs-2">Web <span>designer</span></h3>
+            <p>Basicaly,I intrested in innovate the websites and i built the new small project and ideas also.</p>
+            <h4 class="fw-bold fs-2">Built <span>Project</span></h4>
+            <p>1:<b>Weather App</b><br>2:<b>Login page using MERN stack</b> <br> 3:<b>Advanced Security for Smart Devices and Networks(front-end)</b><br>4:<b>Dynamic Average Calculation </b><br>5:<b>Crud Operation</b><br> </p>
+          </b>
+        </div>
+      </div>
+
+     </div>
+
+    
+     
+    </section>
+
+    <!--skill-->
+    <section class="Skills" id="SKILLS">
+      <div class="common">
+        <p class="text-center fs-1 fw-bolder">Skills</p>
+      </div>
+      <div class="commons">
+          <li><h2>REACT</h2></li>
+                <span class="bar"><span class="react"></span></span></li>
+              
+        <li>
+          <h2>HTML</h2>
+        </li>
+        <span class="bar"><span class="html"></span></span></li>
+        <li>
+          <h2>CSS</h2>
+        </li>
+        <span class="bar"><span class="css"></span></span></li>
+        <li>
+          <h2>JAVASCRIPT</h2>
+        </li>
+        <span class="bar"><span class="javascript"></span></span></li>
+        <li>
+          <h2>NODE JS</h2>
+        </li>
+        <span class="bar"><span class="node"></span></span></li>
+      </div>
+      </div>
+    </section>
+
+    <!--certificate-->
+    <section class="certificate" id="SEAL">
+      <div class="common">
+        <p class="text-center fs-1 fw-bolder">Certificate</p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4 ">
+        <div class="col">
+          <div class=" control card h-60 ">
+            <img src="./assets/image/web certificate 1.jpg" class="card-img-top" alt="web seal">
+            <div class="card-body">
+              <h5 class="card-title m-2">WEB DEVELOPMENT</h5>
+              <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class=" control card h-60">
+            <img src="./assets/image/certificate 2.jpg" class="card-img-top" alt="UI/UX seal">
+            <div class="card-body">
+              <h5 class="card-title mt-2" style="text-align: center;">UI/UX</h5>
+              <!-- <p class="card-text">This is a short card.</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="control card h-60">
+            <img src="./assets/image/AWS certific.png" class="card-img-top" alt="AWS seal">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">AWS</h5>
+              <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> -->
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class=" control card h-60">
+            <img src="./assets/image/certification.jpg" class="card-img-top" alt="UI/UX seal">
+            <div class="card-body">
+              <h5 class="card-title">MERN stack</h5>
+              <!-- <p class="card-text">This is a short card.</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="login" id="CONTACT">
+
+      <div class="common">
+        <p class="text-center fs-1 fw-bolder">Contact</p>
+      </div>
+      <div class="commons text-center fs-5 fw-bolder" >
+
+        <div class="contentt mb-3 row">
+          <label for="name" class="col-sm-2 col-form-label">Name:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control " id="name" placeholder="Enter name">
+          </div>
+        </div>
+
+        <div class="contentt mb-3 row">
+          <label for="email" class="col-sm-2 col-form-label">Email:</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" placeholder="Enter email">
+          </div>
+        </div>
+        
+
+          <div class=" contentt mb-3 row">
+            <label for="message" class="col-sm-2 ">Text me:</label>
+            <div class="col-sm-10">
+              <textarea  input type="text" class="form-control" id="message" >Enter your message
+              </textarea>
+            </div>
+          </div>
+
+          <input type="submit" class=" maint col-sm-2 col-form-label " >
+      </div>
+    
+    </section>
+   
+    
+  </header>
+
+
+
+
+
+
+</body>
+
+</html>
